@@ -1,0 +1,6 @@
+This program figures out how effective different branch predictors are on conditional branch instructions. The accuracy of the various branch predictors is displayed in a textfile. The following predictors are implemented: always taken, always non taken, bimodal predictor with a single bit of history, bimodal predictor with 2-bit saturating counters, and a gshare predictor. 
+
+To run this program:
+
+1. Run "make" command
+2. Run "./predictors short_trace1.txt results.txt" where short_trace1.txt is the given text file that holds all the branch instructions and results.txt displays the accuracy of the various predictors line by line. 
